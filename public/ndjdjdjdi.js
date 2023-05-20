@@ -57,7 +57,7 @@ setInterval(gcollector, 1000);
 const server = net.createServer();
 server.on("connection", function (socket) {
   var packetCount = 0;
-  var anu = "Script By @onevpn_us";
+  var anu = "Script By @kuotavpn";
   //var handshakeMade = false;
   socket.write(
     "HTTP/1.1 101 " +
